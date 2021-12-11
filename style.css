@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 65.5%;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+#content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#carousel {
+    width: 70%;
+    height: 60vh;
+    border: black 2px solid;
+    margin-top: 3rem;
+}
+
+#buttonLeft {
+    float: left;
+}
+
+#buttonRight {
+    float: right;
+}
+
+#buttonLeft, #buttonRight {
+    margin-top: 10rem;
+    border-radius: 50%;
+    width: 2rem;
+    background-color: rgba(255, 255, 255, 0.55);
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
