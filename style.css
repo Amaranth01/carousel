@@ -16,115 +16,29 @@ h1 {
     text-align: center;
     margin-top: 2rem;
     text-shadow: white 2px 2px 5px;
-}
-
-#content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#carousel {
-    width: 88.4vh;
-    height: 55.2vh;
-    border: black 2px solid;
-    margin-top: 1rem;
-    overflow: hidden;
-    box-shadow: white -4px 4px 5px;
+    margin-bottom: 1rem;
 }
 
 .photo {
-    position: absolute;
-    width: 88vh;
-    height: 55vh;
-    background-size: cover;
+    width: 80vw;
+    height: 50vh;
+    margin: auto;
+    background-size: 80vw 50vh;
     z-index: -1;
 }
 
-#buttonLeft {
-    float: left;
-    z-index: 2;
-}
-
-#buttonRight {
-    float: right;
-    z-index: 2;
+#container {
+    padding: 15px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 #buttonLeft, #buttonRight {
-    margin-top: 8rem;
     border-radius: 50%;
-    width: 2rem;
-    background-color: rgba(255, 255, 255, 0.55);
+    width: 3rem;
     font-weight: bold;
-    font-size: 1.5rem;
-}
-
-
-/* Reponsive for all mobile */
-
-@media screen and (max-width: 775px) {
-    .photo {
-        width: 86.8%;
-        height: 42vh;
-    }
-
-    #carousel {
-        width: 76.4vh;
-        height: 42.2vh;
-    }
-}
-
-@media screen and (max-width: 685px) {
-    #carousel {
-        width: 67.4vh;
-    }
-}
-
-@media screen and (max-width: 590px) {
-    .photo {
-        width: 92.8%;
-        height: 35vh;
-    }
-
-    #carousel {
-        width: 62.4vh;
-        height: 35.2vh;
-    }
-}
-
-@media screen and (max-width: 590px) {
-    .photo {
-        width: 92.8%;
-        height: 35vh;
-    }
-
-    #carousel {
-        width: 62.4vh;
-        height: 35.2vh;
-    }
-}
-
-@media screen and (max-width: 430px) {
-    .photo {
-        width: 87.8%;
-        height: 24vh;
-    }
-
-    #carousel {
-        width: 43.4vh;
-        height: 24.2vh;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .photo {
-        width: 30.799999999999997vh;
-        height: 18vh;
-    }
-
-    #carousel {
-        width: 31.4vh;
-        height: 18.2vh;
-    }
+    background-color: rgba(255, 255, 255, 0.53);
 }
