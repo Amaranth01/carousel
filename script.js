@@ -21,7 +21,7 @@ buttonLeft.addEventListener('click', function (){
     j--;
     load();
     div.style.backgroundImage = "url('/" + imgArray[j] + ".jpg')";
-    console.log(j)
+    // condition for go back
     if (j === -1) {
         j = imgArray.length -1;
         load();
@@ -29,13 +29,11 @@ buttonLeft.addEventListener('click', function (){
     }
 });
 
-
-
 buttonRight.addEventListener('click', function (){
     j++;
     load();
     div.style.backgroundImage = "url('/" + imgArray[j] + ".jpg')";
-
+    //condition for go ahead
     if (j === imgArray.length - 1) {
         j = -1;
     }
