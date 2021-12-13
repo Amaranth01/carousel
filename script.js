@@ -41,13 +41,11 @@ buttonRight.addEventListener('click', function (){
     }
 });
 
-let l = 0;
-
-// setInterval(function () {
-//     load();
-//     l++;
-//     div.style.backgroundImage = "url('/" + imgArray[l] + ".jpg')";
-//     if (l === imgArray.length - 1) {
-//         l = 0;
-//     }
-// }, 10000);
+setInterval(function () {
+    load();
+    j++;
+    div.style.backgroundImage = "url('/" + imgArray[j] + ".jpg')";
+    if (j === imgArray.length - 1) {
+        j = 0;
+    }
+}, 5000);
