@@ -25,6 +25,8 @@ h1 {
     margin: auto;
     background-size: 80vw 50vh;
     z-index: -1;
+    border: black solid 2px;
+    box-shadow: white -4px 4px 5px;
 }
 
 #container {
